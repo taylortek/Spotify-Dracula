@@ -1,5 +1,5 @@
 # Spotify-Dracula
-UserScript to make Spotify follow Dracula guidelines
+Beautiful Dracula theme for spotify
 
 ![Spotify-Dracula](https://user-images.githubusercontent.com/27146368/201599878-efb4dfe4-92e1-4d2c-968d-c315258fd073.png)
 
