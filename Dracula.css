@@ -1,10 +1,19 @@
 /* ==UserStyle==
+@name           Spotify Dracula
+@namespace      USO Archive
+@author         Taylor TEK
+@description    `Spotify theme that follows Dracula guidelines`
+@version        20221114.7.15
+@license        CC-BY-NC-4.0
+@preprocessor   uso
+==/UserStyle== */
+/* ==UserStyle==
 @name           Dracula Spotify
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    Spotify Theme that follows Dracula guidelines
 @author         TaylorTek
-@license        https://github.com/taylortek/Spotify-Dracula/blob/main/LICENSE
+@license        GNU GPLv3
 ==/UserStyle== */
 
 @-moz-document domain("spotify.com") {
@@ -74,4 +83,34 @@
         background-color: var(--dracBG2);
     }
     
+    /* They made some terrible updates so now I gotta fix all this stuff! */
+    
+    /*New side Menu*/
+    .Root__nav-bar, .EZFyDnuQnx5hw78phLqP {
+        background-color: var(--dracBG2);
+        background-image: none;
+    }
+    
+    /*New Background*/
+    .ZQftYELq0aOsg6tPbVbV, .WIPpgUp9J37Dwd0ZJnv0 {
+        background-color: var(--dracBG2)!important;
+    }
+    
+    /*New Album Art*/
+    .CmkY1Ag0tJDfnFXbGgju {
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    
+    /* I'll update some stuff while I'm at it */
+    
+    /*Scroll Bar*/
+    .os-scrollbar-handle {
+        border-radius: 10px;
+    }
+    
+    /*Install App Button*/
+    a.Button-sc-qlcn5g-0 {
+        visibility: hidden;
+    }
 }
